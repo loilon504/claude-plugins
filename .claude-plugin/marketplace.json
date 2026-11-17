@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "loi-plugins",
+  "owner": {
+    "name": "loilon504"
+  },
+  "metadata": {
+    "description": "Personal Claude Code plugins."
+  },
+  "plugins": [
+    {
+      "name": "tech-explainer",
+      "source": "./plugins/tech-explainer",
+      "description": "Explains how a technical system works as an artifact page in one house style: monospace type, Nerd Font icons, SVG diagrams, annotated configs, code proofs and side-by-side file changes.",
+      "version": "0.1.0"
+    }
+  ]
+}
