@@ -8,6 +8,14 @@ dark, phone width.
 Ask for it in words ("explain how X and Y work together, as a page") or by name. The workflow and rules are in
 `SKILL.md`; the blocks in `references/`.
 
+## Install
+
+```
+/plugin install tech-explainer --marketplace loilon504/claude-plugins
+```
+
+(`claude plugin install tech-explainer --marketplace loilon504/claude-plugins` from a shell.)
+
 ## Needs
 
 - Python 3. `pip install fonttools` (and `brotli` for smaller files) lets the build cut the icon font to exactly

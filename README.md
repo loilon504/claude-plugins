@@ -8,8 +8,16 @@ Personal Claude Code plugins, as one marketplace (`loi-plugins`).
 
 ## Install on a machine
 
+One step (it adds the marketplace too):
+
 ```sh
-claude plugin marketplace add <this repo: a GitHub owner/repo, a git URL, or a local path>
+claude plugin install tech-explainer --marketplace loilon504/claude-plugins
+```
+
+Or in two, the same from inside a session with `/plugin`:
+
+```sh
+claude plugin marketplace add loilon504/claude-plugins
 claude plugin install tech-explainer@loi-plugins
 ```
 
