@@ -40,6 +40,9 @@ claim. The look is fixed so every page reads the same; the work is in the facts.
 
 - **Ignore nitpicks and edge cases.** Mention one in a single line at most, and never go deep into it. The
   page is for the main path; detail that does not change what the reader does makes it harder to read.
+- **Back each important insight with a little proof.** Right beside a key finding, show one short piece of
+  evidence the reader can check: the exact code lines, a count from a log, a command and its output, the
+  result of a quick test. A little is enough to make it trustworthy; it is not a full investigation.
 - Conclusion first, then the evidence. Each section opens by saying what it shows.
 - Plain words. Explain a term the first time it appears, or leave it out.
 - Every claim about code cites `file:line`; quote the lines exactly (components.md, "Code proof"). Every

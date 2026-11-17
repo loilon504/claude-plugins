@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "tech-explainer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Explains how a technical system works as an artifact page in one house style: monospace type, Nerd Font icons, SVG diagrams, annotated configs, code proofs and side-by-side file changes.",
   "author": {
     "name": "loilon504"
